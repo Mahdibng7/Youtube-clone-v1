@@ -1,0 +1,10 @@
+<div class="container bg-light p-5">
+  <div class="p-3 setmargin">
+    <input type="button" class="btn btn-outline-primary" value="Add Bookmark" (click)="makeBookMark()" onClick="window.location.reload();">
+  </div>
+  <form action="/action_page.php" class="ml-5">
+      <label for="homepage">Enter link: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+      <input class="btn btn-outline-primary col-8" type="url" placeholder="https://youtube.com" id="homepage" name="homepage" [(ngModel)]='url'>
+      <input type="button" class="btn btn-primary col-2 ml-2" value="Play" (click)="addBookMark()" onClick="window.location.reload();">
+    </form>
+</div>

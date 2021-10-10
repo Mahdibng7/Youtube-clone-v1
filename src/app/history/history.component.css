@@ -1,0 +1,40 @@
+div ul {
+    list-style: none;
+  }
+  
+  div li {
+    position: relative;
+    font-family:Arial;
+    font-size:20px;
+    margin:10px;
+  }
+  
+  div ul li::before {
+    content: "\2022";
+    color: #6CAC38;
+    position: absolute;
+    font-size: 25px;
+    left: -19px;
+    top:-3px;
+  }
+  
+  div ul li:first-child:before {
+   
+  }
+  
+  div ul li:nth-child(2):before {
+   content: "\1F89D";
+   font-size: 30px;
+   left: -19px;
+   top:-9px;
+  }
+  div ul li:nth-child(3):before {
+   content: "\1F892";
+   font-size: 30px;
+   left: -18px;
+   top:-12px;
+  }
+  
+      
+  
+  

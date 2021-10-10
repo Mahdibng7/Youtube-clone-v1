@@ -1,0 +1,8 @@
+.main-heading{
+    color: blue;
+}
+@media only screen and (max-width: 800px){
+    .main-heading{
+        color: blueviolet;
+    }
+}

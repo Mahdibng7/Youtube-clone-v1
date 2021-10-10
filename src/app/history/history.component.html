@@ -1,0 +1,10 @@
+<section class="container bg-light">
+  <div class="pl-5 w-25" style="float: left; border-radius: 25px; overflow: overlay;">
+    <div>
+      <span>Search History</span>
+      <ul *ngFor="let option of data let i = index;">  
+        <a href="" (click)="selectedUrl(i)"><li><span>{{option}}</span></li></a>
+      </ul> 
+    </div>
+  </div>
+</section>
